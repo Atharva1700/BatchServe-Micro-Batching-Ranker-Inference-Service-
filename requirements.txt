@@ -1,0 +1,7 @@
+numpy
+torch==2.15.0
+fastapi
+uvicorn
+pydantic
+httpx
+pytest

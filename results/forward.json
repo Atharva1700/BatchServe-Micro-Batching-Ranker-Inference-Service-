@@ -1,0 +1,26 @@
+{
+  "candidates_per_request": 100,
+  "torch_threads": 1,
+  "results": {
+    "1": {
+      "ms_per_call": 0.057,
+      "ms_per_request": 0.0573,
+      "requests_per_s": 17465
+    },
+    "4": {
+      "ms_per_call": 0.119,
+      "ms_per_request": 0.0297,
+      "requests_per_s": 33642
+    },
+    "16": {
+      "ms_per_call": 0.441,
+      "ms_per_request": 0.0276,
+      "requests_per_s": 36296
+    },
+    "64": {
+      "ms_per_call": 2.026,
+      "ms_per_request": 0.0317,
+      "requests_per_s": 31585
+    }
+  }
+}
